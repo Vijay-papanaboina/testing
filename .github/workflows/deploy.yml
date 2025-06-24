@@ -27,7 +27,7 @@ jobs:
 
       - name: Upload to backend
         run: |
-          curl -X POST https://barely-humane-parakeet.ngrok-free.app/api/upload \
+          curl -X POST https://teakwoodfurniturepoint.online/api/upload \
             -F "file=@dist.zip" \
             -F "projectSlug=Vijay-papanaboina-testing" \
             -F "ownerLogin=Vijay-papanaboina" \
