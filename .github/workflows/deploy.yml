@@ -27,7 +27,7 @@ jobs:
 
       - name: Upload to backend
         run: |
-          curl -X POST https://teakwoodfurniturepoint.online/api/upload \
+          curl -X POST https://backend.agrifacts.space/api/upload \
             -F "file=@dist.zip" \
             -F "projectSlug=Vijay-papanaboina-testing" \
             -F "ownerLogin=Vijay-papanaboina" \
